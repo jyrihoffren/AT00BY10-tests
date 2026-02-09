@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "jest --passWithNoTests",
-  "coverage": "jest --coverage",
-  "coveralls": "cat ./coverage/lcov.info | coveralls"
-}
+    "test": "jest --passWithNoTests",
+    "coverage": "jest --coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jyrihoffren/AT00BY10-tests.git"
