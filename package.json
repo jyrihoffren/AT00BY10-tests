@@ -1,0 +1,32 @@
+{
+  "name": "at00by10-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyrihoffren/AT00BY10-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jyrihoffren/AT00BY10-tests/issues"
+  },
+  "homepage": "https://github.com/jyrihoffren/AT00BY10-tests#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "babel-jest": "^30.2.0",
+    "coveralls": "^3.1.1",
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "software-testing-assignment": "github:petri-rantanen/AT00BY10"
+  }
+}
