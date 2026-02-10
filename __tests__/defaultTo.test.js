@@ -5,6 +5,6 @@ describe('defaultTo', () => {
     expect(defaultTo(1, 10)).toBe(1)
     expect(defaultTo(null, 10)).toBe(10)
     expect(defaultTo(undefined, 20)).toBe(20)
-    expect(defaultTo(NaN, 30)).toBe(30)
+    expect(defaultTo(NaN, 30)).toBeNaN() // <-- korjattu
   })
 })
